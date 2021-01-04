@@ -6,6 +6,6 @@ Author: Yves R. Sagaert
 Maintainer: Yves R. Sagaert <yves.sagaert@vives.be>
 Description: This development package contains the code to detect, extract, select leading indicators and build a forecasting model. 
     The univariate features such as autoregressive terms or seasonality of the times series are addressed separately.
-License: GPL-3.0 License
+License: GPL-3 + file LICENSE
 Encoding: UTF-8
 LazyData: true

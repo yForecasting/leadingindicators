@@ -15,5 +15,5 @@ clean_trim_data(data, start, end)
 Cleans the raw dataset by removing the first column, renaming the variables in the column headers. The dataset is trimmed from start to end date, the rest is omitted. Series that have NA values between these dates are omitted.
 }
 \examples{
-clean_trim_data(data=indicatordata, start="2004-01-01", end="2014-12-01")
+# clean_trim_data(data=indicatordata, start="2004-01-01", end="2014-12-01")
 }
