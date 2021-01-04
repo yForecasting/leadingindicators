@@ -1,0 +1,11 @@
+Package: leadingindicators
+Type: Package
+Title: Find relevant leading indicators for time series forecasting
+Version: 0.1.0
+Author: Yves R. Sagaert
+Maintainer: Yves R. Sagaert <yves.sagaert@vives.be>
+Description: This development package contains the code to detect, extract, select leading indicators and build a forecasting model. 
+    The univariate features such as autoregressive terms or seasonality of the times series are addressed separately.
+License: GPL-3.0 License
+Encoding: UTF-8
+LazyData: true
