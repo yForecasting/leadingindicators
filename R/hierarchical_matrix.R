@@ -1,4 +1,8 @@
 hierarchical_matrix <- function(nodes, levels=NA) {
+  # make summing matrix S for reconcilation formula
+  # First all low level series will be summed to the top series
+  # Then the lowest level series are all set to 1 in identity matrix format
+  # Then intermediate aggregations are formed in-between
   if (is.na(levels)){
     # Assume 3-level hierarchy if no levels are given
     levels=rep(2,length(nodes))
