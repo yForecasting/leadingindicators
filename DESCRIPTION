@@ -11,4 +11,6 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     tidyr,
-    ggplot2
+    ggplot2,
+    glmnet,
+    forecast
