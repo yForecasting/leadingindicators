@@ -9,3 +9,6 @@ Description: This development package contains the code to detect, extract, sele
 License: GPL-3 + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    tidyr,
+    ggplot2
