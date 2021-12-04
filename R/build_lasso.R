@@ -3,6 +3,8 @@ build_lasso <- function(y, x, h=12, lambda=1, seed=1010, nfolds=10, type.measure
   if (class(lambda)=="numeric"){
     if (lambda==1){
       lambda = "lambda.1se"
+    } else {
+      lambda = "lambda.min"
     }
   }
   # Test on length y & x
